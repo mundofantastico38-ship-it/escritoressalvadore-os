@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><meta name="google-site-verification" content="RXpT7X1vVjZs_FeNPwZiYpQTQlCIeDn_OTY2PGVfjrY" />Code has comments. Press enter to view.
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escritores Salvadoreños</title>
+    <style>
+        body {
+            font-family: "Georgia", serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #005f73;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        .card {
+            background-color: white;
+            width: 300px;
+            margin: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: scale(1.03);
+        }
+
+        .card img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 15px;
+        }
+
+        .card-content h2 {
+            color: #0a9396;
+            margin-top: 0;
+        }
+
+        .card-content h3 {
+            color: #005f73;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #005f73;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Escritores Salvadoreños Destacados</h1>
+    <p>Biografía, obras y legado de grandes autores de El Salvador</p>
+</header>
+
+<div class="container">
+
+    <!-- Escritor 1 -->
+    <div class="card">
+        <img src="img/Claudia lars.jpg" alt="Claudia Lars">
+        <div class="card-content">
+            <h2>Claudia Lars (1899–1974)</h2>
+            <h3>Obra destacada: Tierra de infancia</h3>
+            <p><strong>Biografía:</strong> Claudia Lars, seudónimo de Margarita del Carmen Brannon Vega, fue una de las poetisas más reconocidas de El Salvador. Su poesía combina la nostalgia, el amor, la infancia y la patria.</p>
+            <p><strong>Prólogo o Sinopsis:</strong> Tierra de infancia es un libro que evoca la niñez y los paisajes salvadoreños con ternura y melancolía. Cada verso es un regreso a la pureza de los primeros años y a la naturaleza viva de su país.</p>
+            <p><strong>Por qué fue famoso:</strong> Su obra poética trascendió por su sensibilidad lírica y por haber sido pionera en la poesía femenina centroamericana del siglo XX.</p>
+        </div>
+    </div>
+
+    <!-- Escritor 2 -->
+    <div class="card">
+        <img src="img/Salarrue-.jpg" alt="Salarrué">
+        <div class="card-content">
+            <h2>Salarrué (1899–1975)</h2>
+            <h3>Obra destacada: Cuentos de barro</h3>
+            <p><strong>Biografía:</strong> Salvador Salazar Arrué, conocido como Salarrué, fue un narrador, pintor y diplomático salvadoreño. Es uno de los mayores exponentes del costumbrismo literario en Centroamérica.</p>
+            <p><strong>Prólogo o Sinopsis:</strong> Cuentos de barro retrata con realismo y ternura la vida rural de El Salvador, mostrando el habla y el espíritu del campesino salvadoreño.</p>
+            <p><strong>Por qué fue famoso:</strong> Este libro marcó un antes y un después en la narrativa nacional, siendo considerado un símbolo de la identidad salvadoreña y de la literatura costumbrista.</p>
+        </div>
+    </div>
+
+    <!-- Escritor 3 -->
+    <div class="card">
+        <img src="img/alfonso quijada.jpeg" alt="Alfonso Quijada Urías">
+        <div class="card-content">
+            <h2>Alfonso Quijada Urías (n. 1940)</h2>
+            <h3>Obra destacada: Los estados sobrenaturales y otros poemas</h3>
+            <p><strong>Biografía:</strong> Poeta, narrador y ensayista salvadoreño, Quijada Urías formó parte de la llamada Generación Comprometida. Su obra combina la denuncia social con la reflexión filosófica.</p>
+            <p><strong>Prólogo o Sinopsis:</strong> En Los estados sobrenaturales y otros poemas, el autor aborda los temas del exilio, la violencia y la esperanza, desde una mirada humana y poética.</p>
+            <p><strong>Por qué fue famoso:</strong> Su poesía es reconocida por su profundidad emocional y su compromiso político, convirtiéndolo en una de las voces más influyentes de la literatura salvadoreña contemporánea.</p>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2025 Literatura Salvadoreña |[katherne Dayana hernandez martinz g-1-]</p>
+</footer>
+
+</body>
+</html>
